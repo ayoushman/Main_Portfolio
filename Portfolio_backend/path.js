@@ -1,0 +1,1 @@
+exports.pathResume = __dirname + "/data/Resume.pdf"

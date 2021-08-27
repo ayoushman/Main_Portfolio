@@ -1,0 +1,61 @@
+.main_contact {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5rem;
+}
+
+.main_contact .card_holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_contact .map_div {
+  height: 27rem;
+  width: 20rem;
+  margin: 2rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 15px 10px rgba(26, 26, 26, 0.651);
+          box-shadow: 5px 5px 15px 10px rgba(26, 26, 26, 0.651);
+}
+
+.main_contact .map_div .map {
+  width: 100%;
+}
+
+.main_contact .sbm_btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1f1f1f;
+  width: 8rem;
+  height: 3rem;
+  background: linear-gradient(255.56deg, #d5d3d3 26.17%, rgba(255, 255, 255, 0) 97.71%);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 5rem;
+}
+/*# sourceMappingURL=Contact.css.map */

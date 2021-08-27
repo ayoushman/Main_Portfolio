@@ -1,0 +1,31 @@
+.service_div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5rem;
+
+  .header {
+    text-align: center;
+    width: 100%;
+  }
+
+  .service_cards {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    align-items: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // grid-template-rows: 1fr 1fr;
+
+    // grid-gap: 2rem;
+  }
+}

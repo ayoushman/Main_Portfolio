@@ -1,0 +1,15 @@
+.Navbar_div {
+  width: 70%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  top: 0.2rem;
+  z-index: 10;
+}
+
+.NavList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  font-weight: 100;
+}

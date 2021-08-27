@@ -1,0 +1,81 @@
+.main_project {
+  height: fit-content;
+  margin-bottom: 10rem;
+}
+
+.parahead {
+  margin-top: 10rem;
+  margin-bottom: 14rem;
+}
+
+.project_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .left_arrow {
+    margin-right: 5rem;
+    cursor: pointer;
+  }
+  .right_arrow {
+    margin-left: 5rem;
+    cursor: pointer;
+  }
+  .main_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transform: scale(1.05);
+    padding: 2rem;
+    width: 70%;
+    box-shadow: 2px 2px 16px 2px rgba(97, 1, 92, 0.432);
+    backdrop-filter: blur(10px);
+    background: linear-gradient(
+      150deg,
+      rgba(255, 255, 255, 0.151) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    cursor: pointer;
+  }
+
+  .Pimg_div {
+    position: relative;
+    z-index: 1;
+    background: rgb(24, 23, 23);
+    width: fit-content;
+    opacity: 0.5;
+    box-shadow: 5px 5px 20px 10px rgb(12, 12, 12);
+    .project_img {
+      width: 20rem;
+      height: 15rem;
+      border-radius: 10px;
+      opacity: 1;
+      backdrop-filter: blur(10px);
+    }
+  }
+
+  .para_div {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    margin-left: -3rem;
+
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+
+    // box-shadow: 4px 4px 20px 10px rgba(12, 12, 12, 0.219);
+    .para {
+      /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dolor dapibus erat semper blandit nec non metus. Suspendisse ut iaculis mauris, at eleifend ante. Aliquam enim enim, efficitur et lorem ac, rutrum varius nisl. Cras vulputate suscipit sem at commodo */
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 28px;
+
+      color: #ffffff;
+    }
+  }
+}

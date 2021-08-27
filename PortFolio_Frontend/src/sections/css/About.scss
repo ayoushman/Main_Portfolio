@@ -1,0 +1,175 @@
+.about_section {
+  border: 2px solid magenta;
+  width: 90%;
+  max-width: 100%;
+  margin-bottom: 20%;
+  display: flex;
+  .header {
+    display: flex;
+    position: relative;
+    // justify-content: space-between;
+    margin: 3rem;
+    .profile_holder {
+      margin: 1rem;
+    }
+
+    .profile_summary {
+      margin-top: 4rem;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: -0.02em;
+      flex-grow: 2fr;
+      color: #ffffff;
+    }
+
+    .cv_btn {
+      cursor: pointer;
+      border: none;
+      align-self: baseline;
+
+      background: linear-gradient(
+        180deg,
+        #110f0f 29.17%,
+        rgba(17, 15, 15, 0.765625) 43.75%,
+        rgba(17, 15, 15, 0) 98.96%
+      );
+      box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.808);
+      filter: drop-shadow(6px 6px 4px rgb(0, 0, 0));
+      border-radius: 10px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height */
+      letter-spacing: -0.02em;
+      margin-top: 4rem;
+      color: #db2db5;
+      width: 143px;
+      height: 44px;
+      text-shadow: 3px 6px 3px rgba(243, 47, 224, 0.25);
+    }
+  }
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  .skills_div {
+    .sub_head {
+      margin-left: 2rem;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 42px;
+      letter-spacing: -0.02em;
+
+      color: #ffffff;
+      margin-bottom: 3rem;
+    }
+  }
+  .Lang_skills {
+    display: flex;
+    padding: 2rem;
+    max-height: 26rem;
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+
+    justify-content: space-between;
+
+    .Lang_sec {
+      align-self: center;
+
+      // height: 19rem;
+    }
+    .lang_bar {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1rem;
+    }
+  }
+
+  .Other_skills {
+    display: flex;
+    padding: 2rem;
+    max-height: 26rem;
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+
+    justify-content: space-between;
+
+    .Other_sec {
+      align-self: center;
+
+      // height: 19rem;
+    }
+    .Other_bar {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 5rem;
+    }
+  }
+  .Web_skills {
+    display: flex;
+    padding: 2rem;
+    max-width: fit-content;
+    justify-content: space-between;
+
+    .Web_sec {
+      align-self: center;
+    }
+    .Web_bar {
+      display: flex;
+      flex-wrap: wrap;
+      // margin: rem;
+    }
+  }
+
+  .Db_skills {
+    display: flex;
+    padding: 2rem;
+    max-width: fit-content;
+    // justify-content: space-between;
+
+    .Db_sec {
+      align-self: center;
+    }
+    .Db_bar {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 2rem;
+    }
+  }
+
+  .U_skills {
+    display: flex;
+    padding: 2rem;
+    max-width: fit-content;
+    // justify-content: space-between;
+
+    .U_sec {
+      align-self: center;
+    }
+    .U_bar {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 5rem;
+    }
+  }
+
+  .Head {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    color: #ffffff;
+  }
+}

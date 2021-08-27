@@ -1,0 +1,11 @@
+.Profile_div {
+  position: relative;
+  z-index: 5;
+}
+
+.Profile_div .profile_img {
+  width: 4rem;
+  height: 5rem;
+  background-color: #fff;
+}
+/*# sourceMappingURL=Profile.css.map */

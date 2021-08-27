@@ -1,0 +1,28 @@
+.icons_list {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  margin-bottom: 10rem;
+  margin-left: 4rem;
+}
+
+.icons_list .icon {
+  color: white;
+  font-size: 25px;
+}
+
+.icons_list :hover {
+  cursor: pointer;
+  color: #330030;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+/*# sourceMappingURL=sicons.css.map */

@@ -1,0 +1,17 @@
+.Moon {
+  background: linear-gradient(
+    160deg,
+    #970555fd,
+    #970555fd,
+    #74047e7c,
+    #4e043800
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 17rem;
+  height: 17rem;
+  border-radius: 100%;
+  z-index: 1;
+  backdrop-filter: blur(2px);
+  position: relative;
+  // box-shadow: -10px -10px 50px 0px rgba($color: #270122, $alpha: 1);
+}

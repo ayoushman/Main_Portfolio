@@ -1,0 +1,54 @@
+.NavComponent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 100%;
+  transition: all 0.2s ease-out;
+  // animation: move-in-left 1s ease-in-out;
+  max-height: 100%;
+  :hover {
+    text-decoration: underline;
+    // transition: all 0.2s ease-out;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 167% */
+  letter-spacing: 0.04em;
+  margin: 0.3em;
+  color: #ffffff;
+  animation: starting 1s ease-in;
+}
+.none {
+  display: none;
+}
+
+@keyframes starting {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}

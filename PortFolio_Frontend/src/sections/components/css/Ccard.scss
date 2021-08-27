@@ -1,0 +1,54 @@
+.main_card {
+  width: 45rem;
+  min-height: fit-content;
+  padding-bottom: 3rem;
+
+  background: linear-gradient(
+    253.02deg,
+    #c40736e3 -28.74%,
+    rgba(104, 4, 59, 0.808) -28.73%,
+    rgba(73, 5, 87, 0.603) 110.68%
+  );
+  filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  margin-bottom: 5rem;
+  display: flex;
+
+  .contact_card {
+    min-height: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    .form_content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 2rem;
+      .label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        margin-top: 2rem;
+
+        color: #ffffff;
+        margin-bottom: 1rem;
+      }
+
+      .input {
+        outline: none;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #ffffff;
+        margin-left: 5rem;
+        color: #ffffff;
+        padding: 0.5rem;
+        width: 80%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

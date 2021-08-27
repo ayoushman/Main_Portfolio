@@ -1,0 +1,25 @@
+.main_div {
+  display: flex;
+  min-height: fit-content;
+  flex-direction: column;
+
+  .child_div {
+    display: flex;
+    flex-direction: column;
+    .head {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 56px;
+
+      letter-spacing: -0.02em;
+
+      // margin-bottom: -0.2rem;
+      color: #ffffff;
+    }
+
+    .line {
+      height: 5px;
+    }
+  }
+}

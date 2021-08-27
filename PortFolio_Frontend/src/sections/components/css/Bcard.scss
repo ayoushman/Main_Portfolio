@@ -1,0 +1,73 @@
+.Card_main {
+  background: linear-gradient(
+    242.75deg,
+    rgba(52, 49, 49, 0.595) 12.58%,
+    rgba(41, 39, 39, 0) 37.23%,
+    rgba(176, 172, 172, 0.273438) 79.7%
+  );
+
+  filter: drop-shadow(10px 10px 3px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  width: 45rem;
+  height: 26rem;
+  box-shadow: 10px 10px 50px 10px #220216;
+  position: relative;
+  color: #fff;
+  padding: 20px;
+  z-index: 2;
+  // backdrop-filter: blur(40px);
+
+  .head1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 50px;
+
+    color: #ffffff;
+
+    text-shadow: 8px 8px 7px rgba(0, 0, 0, 0.25);
+
+    color: #ffffff;
+
+    text-shadow: 8px 8px 7px rgba(0, 0, 0, 0.25);
+    margin-bottom: 4.5rem;
+  }
+
+  .head2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 40px;
+    /* or 62% */
+
+    color: #cf32dd;
+
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5rem;
+  }
+
+  .description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 27px;
+    /* or 111% */
+
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .line {
+    width: 24rem;
+    height: 3px;
+    left: 103px;
+    top: 764px;
+
+    background: #cf32dd;
+    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.25);
+  }
+}
